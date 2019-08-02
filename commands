@@ -1,0 +1,3 @@
+importing the db via cmd
+
+mysql -u username -p new_database < data-dump.sql
