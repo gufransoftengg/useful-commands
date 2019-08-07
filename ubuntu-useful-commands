@@ -1,2 +1,5 @@
 This will display a list of all the installed extensions in your system.
 ls `php -i | grep "^extension_dir" | sed -e 's/.*=> //'`
+
+gumlet/php-image-resize details:
+https://packagist.org/packages/gumlet/php-image-resize
