@@ -3,3 +3,8 @@ ls `php -i | grep "^extension_dir" | sed -e 's/.*=> //'`
 
 gumlet/php-image-resize details:
 https://packagist.org/packages/gumlet/php-image-resize
+
+
+Switch server
+
+sudo update-alternatives  --set php /usr/bin/php7.0
